@@ -14,7 +14,7 @@ try:
     promedio = 0
     mejorPromedio = 0
 
-    promedio = (calificaciones["calculo"] + calificaciones ["dibujo"])/len(calificaciones)
+    promedio = (calificaciones["Calculo"] + calificaciones ["Dibujo"])/len(calificaciones)
     mejorPromedio = max(calificaciones, key=calificaciones.get)
     print("\nPromedio alumno: ",promedio)
     print("\nLa materia con mejor promedio es: ", mejorPromedio)
